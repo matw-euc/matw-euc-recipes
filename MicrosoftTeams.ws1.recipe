@@ -7,7 +7,7 @@
 	<key>Identifier</key>
 	<string>com.github.matweuc.ws1.microsoftteams</string>
 	<key>ParentRecipe</key>
-	<string>ccom.github.rtrouton.munki.microsoftteams</string>
+	<string>com.github.rtrouton.munki.microsoftteams</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
