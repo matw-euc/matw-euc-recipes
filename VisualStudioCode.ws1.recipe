@@ -16,15 +16,6 @@
 		<string>apps/Microsoft</string>
 		<key>MUNKI_CATEGORY</key>
 		<string>Text Editors</string>
-		<key>pkginfo</key>
-		<dict>
-			<key>catalogs</key>
-			<array>
-				<string>device_catalog</string>
-			</array>
-			<key>category</key>
-			<string>%MUNKI_CATEGORY%</string>
-		</dict>
 		<key>WS1_OAUTH_CLIENT_ID</key>
 		<string>OAUTH2_CLIENT_ID_HERE</string>
 		<key>WS1_OAUTH_CLIENT_SECRET</key>
