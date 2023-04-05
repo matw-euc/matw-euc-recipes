@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Recipe description</string>
+	<key>Identifier</key>
+	<string>com.github.matweuc.ws1.SketchUpPro</string>
+	<key>ParentRecipe</key>
+	<string>com.github.jps3.munki.SketchUpPro</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>SketchUp Pro</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>MUNKI_CATEGORY</key>
+		<string>Productivity</string>
+		<key>WS1_OAUTH_CLIENT_ID</key>
+		<string>OAUTH2_CLIENT_ID_HERE</string>
+		<key>WS1_OAUTH_CLIENT_SECRET</key>
+		<string>OAUTH2_CLIENT_CLIENT_SECRET_HERE</string>
+		<key>WS1_OAUTH_TOKEN_URL</key>
+		<string>OAUTH2_ACCESS_TOKEN_SERVER_URL_HERE</string>
+		<key>WS1_API_USERNAME</key>
+		<string>API_USERNAME_HERE</string>
+		<key>WS1_API_PASSWORD</key>
+		<string>API_PASSWORD_HERE</string>
+		<key>WS1_API_TOKEN</key>
+		<string>API_TOKEN_HERE</string>
+		<key>WS1_B64ENCODED_API_CREDENTIALS</key>
+		<string>B64ENCODED_API_CREDENTIALS_HERE</string>
+		<key>WS1_API_URL</key>
+		<string>https://asXXXX.awmdm.com</string>
+		<key>WS1_CONSOLE_URL</key>
+		<string>https://cnXXXX.awmdm.com</string>
+		<key>WS1_GROUPID</key>
+		<string>GROUPID_HERE</string>
+		<key>WS1_SMART_GROUP_NAME</key>
+		<string>SMART_GROUP_NAME_HERE</string>
+		<key>WS1_PUSH_MODE</key>
+		<string>PUSH_MODE_SETTING</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Processor</key>
+			<string>com.github.codeskipper.WorkSpaceOneImporter/WorkSpaceOneImporter</string>
+			<key>Arguments</key>
+			<dict>
+				<key>ws1_oauth_client_id</key>
+				<string>%WS1_OAUTH_CLIENT_ID%</string>
+				<key>ws1_oauth_client_secret</key>
+				<string>%WS1_OAUTH_CLIENT_SECRET%</string>
+				<key>ws1_oauth_token_url</key>
+				<string>%WS1_OAUTH_TOKEN_URL%</string>
+				<key>ws1_api_token</key>
+				<string>%WS1_API_TOKEN%</string>
+				<key>ws1_api_username</key>
+				<string>%WS1_API_USERNAME%</string>
+				<key>ws1_api_password</key>
+				<string>%WS1_API_PASSWORD%</string>
+				<key>ws1_b64encoded_api_credentials</key>
+				<string>%WS1_B64ENCODED_API_CREDENTIALS%</string>
+				<key>ws1_api_url</key>
+				<string>%WS1_API_URL%</string>
+				<key>ws1_console_url</key>
+				<string>%WS1_CONSOLE_URL%</string>
+				<key>ws1_groupid</key>
+				<string>%WS1_GROUPID%</string>
+				<key>ws1_smart_group_name</key>
+				<string>%WS1_SMART_GROUP_NAME%</string>
+				<key>ws1_push_mode</key>
+				<string>%WS1_PUSH_MODE%</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
