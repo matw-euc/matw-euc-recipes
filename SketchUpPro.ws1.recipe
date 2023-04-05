@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Recipe description</string>
+	<string>Downloads the latest version of SketchUp Pro 2023 EN and imports into Workspace One</string>
 	<key>Identifier</key>
 	<string>com.github.matweuc.ws1.SketchUpPro</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jps3.munki.SketchUpPro</string>
+	<string>com.github.matweuc.munki.SketchUpPro2023EN</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
