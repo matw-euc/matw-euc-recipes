@@ -1,3 +1,5 @@
-# matw-euc-recipes
+# Moved to https://github.com/autopkg/matw-euc-recipes
 
-## Mostly a collection of WS1 recipes
+## matw-euc-recipes
+
+### Mostly a collection of WS1 recipes
